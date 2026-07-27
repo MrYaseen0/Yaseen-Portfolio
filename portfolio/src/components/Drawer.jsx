@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { Home, User, Briefcase, Server, Mail, X, Star, MessageSquare, ExternalLink } from 'lucide-react'
+import { Home, User, Briefcase, Server, Mail, X, Star, MessageSquare } from 'lucide-react'
 import { GithubIcon, LinkedinIcon, InstagramIcon, FacebookIcon } from './SocialIcons'
 
 const menuItems = [
