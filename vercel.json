@@ -4,16 +4,13 @@
   "buildCommand": "cd portfolio && npm run build",
   "builds": [
     {
-      "src": "portfolio/api/index.cjs",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": ["portfolio/server/**"]
-      }
+      "src": "api/index.cjs",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
-    { "src": "/sitemap.xml", "dest": "/portfolio/api/index.cjs" },
-    { "src": "/api/(.*)", "dest": "/portfolio/api/index.cjs" },
+    { "src": "/sitemap.xml", "dest": "/api/index.cjs" },
+    { "src": "/api/(.*)", "dest": "/api/index.cjs" },
     { "src": "/assets/(.*)", "dest": "/portfolio/dist/assets/$1" },
     { "src": "/(.*\\.(js|css|ico|png|jpg|jpeg|svg|webp|woff|woff2|ttf|eot|json))", "dest": "/portfolio/dist/$1" },
     { "src": "/(.*)", "dest": "/portfolio/dist/index.html" }
