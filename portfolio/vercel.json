@@ -1,5 +1,9 @@
 {
   "version": 2,
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
   "builds": [
     {
       "src": "api/index.cjs",
