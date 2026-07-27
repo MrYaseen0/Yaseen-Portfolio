@@ -1,19 +1,7 @@
 {
   "version": 2,
-  "framework": "vite",
-  "outputDirectory": "dist",
   "installCommand": "npm install",
   "buildCommand": "npm run build",
-  "builds": [
-    {
-      "src": "api/index.cjs",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    { "src": "/sitemap.xml", "dest": "/api/index.cjs" },
-    { "src": "/api/(.*)", "dest": "/api/index.cjs" },
-    { "src": "/(.*\\.(js|css|ico|png|jpg|jpeg|svg|webp|woff|woff2|ttf|eot|json))", "dest": "/dist/$1" },
-    { "src": "/(.*)", "dest": "/dist/index.html" }
-  ]
+  "outputDirectory": "dist",
+  "framework": "vite"
 }
