@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "src": "/sitemap.xml", "dest": "/api/index.js" },
+    { "src": "/api/(.*)", "dest": "/api/index.js" },
+    { "src": "/(.*\\.(js|css|ico|png|jpg|jpeg|svg|webp|woff|woff2|ttf|eot|json))", "dest": "/dist/$1" },
+    { "src": "/(.*)", "dest": "/dist/index.html" }
+  ]
+}

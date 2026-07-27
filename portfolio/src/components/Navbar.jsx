@@ -18,7 +18,8 @@ const navLinks = [
   { label: 'Services', href: '/services', hasDropdown: true },
   { label: 'Projects', href: '/#projects' },
   { label: 'Experience', href: '/experience' },
-  { label: 'GitHub', href: '/github' },
+  { label: 'Pricing', href: '/pricing' },
+  { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '/#contact' },
 ]
 

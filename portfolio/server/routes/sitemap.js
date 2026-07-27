@@ -16,6 +16,9 @@ const staticPages = [
   { path: '/services/saas-architecture', changefreq: 'monthly', priority: '0.7' },
   { path: '/experience', changefreq: 'monthly', priority: '0.6' },
   { path: '/testimonials', changefreq: 'monthly', priority: '0.6' },
+  { path: '/pricing', changefreq: 'monthly', priority: '0.7' },
+  { path: '/blog', changefreq: 'weekly', priority: '0.8' },
+  { path: '/github', changefreq: 'weekly', priority: '0.7' },
 ]
 
 router.get('/sitemap.xml', async (req, res) => {

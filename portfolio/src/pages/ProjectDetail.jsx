@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { ArrowLeft, ExternalLink, Star, GitFork, Calendar, Code2, Layers, Zap, Clock, Download, Eye, Shield, Globe, Smartphone } from 'lucide-react'
+import { ArrowLeft, ExternalLink, Star, GitFork, Code2, Layers, Zap, Clock, Download, Eye, Shield, Globe, Smartphone } from 'lucide-react'
 import { GithubIcon } from '../components/SocialIcons'
 import { Link, useParams } from 'react-router-dom'
 import BubbleAnimation from '../components/BubbleAnimation'

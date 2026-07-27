@@ -9,8 +9,9 @@ const menuItems = [
   { label: 'Services', path: '/services', icon: Server },
   { label: 'Projects', path: '/#projects', icon: Briefcase },
   { label: 'Experience', path: '/experience', icon: Star },
+  { label: 'Pricing', path: '/pricing', icon: Briefcase },
+  { label: 'Blog', path: '/blog', icon: MessageSquare },
   { label: 'Testimonials', path: '/testimonials', icon: MessageSquare },
-  { label: 'GitHub', path: '/github', icon: ExternalLink },
   { label: 'Contact', path: '/#contact', icon: Mail },
 ]
 
