@@ -78,7 +78,7 @@ export default function Drawer({ open, onClose }) {
         {/* Header */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 48 }}>
           <Link to="/" onClick={onClose} style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <img src="/assets/logo-animated.gif" alt="Logo" style={{ height: 34, width: 34, borderRadius: 8 }} />
+            <img src="/assets/stamp-logo.jpg" alt="Logo" style={{ height: 34, width: 34, borderRadius: 8 }} />
             <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 18, color: '#1A1A2E' }}>
               Yaseen Ahmad<span style={{ color: '#E84393' }}>.</span>
             </span>

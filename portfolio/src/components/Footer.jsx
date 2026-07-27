@@ -53,7 +53,7 @@ export default function Footer() {
               marginBottom: 16,
             }}>
               <img
-                src="/assets/main-logo.png"
+                src="/assets/stamp-logo.jpg"
                 alt="Yaseen Ahmad"
                 style={{ height: 40, width: 40, borderRadius: 10, objectFit: 'cover' }}
               />

@@ -9,7 +9,7 @@ const settingsSchema = new mongoose.Schema({
     phone: { type: String, default: '', maxlength: 50 },
     location: { type: String, default: 'Peshawar, Pakistan', maxlength: 200 },
     timezone: { type: String, default: 'UTC +5:00', maxlength: 50 },
-    avatar: { type: String, default: '/assets/developer-pic.png', maxlength: 500 },
+    avatar: { type: String, default: '/assets/developer-pic.jpg', maxlength: 500 },
   },
   social: {
     github: { type: String, default: 'https://github.com/MrYaseen0', maxlength: 500 },
@@ -24,7 +24,7 @@ const settingsSchema = new mongoose.Schema({
     title: { type: String, default: 'Yaseen Ahmad | Full-Stack Developer', maxlength: 200 },
     description: { type: String, default: 'Full-Stack Developer specializing in MERN stack. Building production-grade SaaS applications and web apps.', maxlength: 500 },
     keywords: { type: String, default: 'Yaseen Ahmad, Full-Stack Developer, MERN Stack, React Developer, Node.js, MongoDB', maxlength: 500 },
-    ogImage: { type: String, default: '/assets/developer-pic.png', maxlength: 500 },
+    ogImage: { type: String, default: '/assets/developer-pic.jpg', maxlength: 500 },
     canonical: { type: String, default: 'https://yaseenahmad.dev', maxlength: 500 },
   },
   homepage: {

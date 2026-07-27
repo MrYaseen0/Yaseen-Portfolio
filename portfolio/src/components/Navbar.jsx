@@ -47,7 +47,7 @@ export default function Navbar({ onMenuClick, onHireClick }) {
         {/* Left: Logo + Nav */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 32 }}>
           <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: 10, fontWeight: 700, fontSize: 20, fontFamily: "'Space Grotesk', sans-serif" }}>
-            <img src="/assets/logo-animated.gif" alt="Yaseen Ahmad" style={{ height: 36, width: 36, borderRadius: 8, objectFit: 'cover' }} />
+            <img src="/assets/stamp-logo.jpg" alt="Yaseen Ahmad" style={{ height: 36, width: 36, borderRadius: 8, objectFit: 'cover' }} />
             <span style={{ color: '#1A1A2E' }}>Yaseen Ahmad</span>
           </Link>
 

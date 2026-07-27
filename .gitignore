@@ -10,12 +10,11 @@ dist/
 server/.env
 server/.env.*
 
-# Large binary files (compress before committing)
-pics/
-logo of web/
-Yaseen Ahmad.svg
-portfolio/public/assets/developer-pic.png
-portfolio/public/assets/logo-animated.gif
+# Large originals (compressed JPGs are committed instead)
+*.gif
+*.svg
+!portfolio/public/favicon.svg
+!portfolio/public/icons.svg
 portfolio/public/resume.pdf
 
 # Logs

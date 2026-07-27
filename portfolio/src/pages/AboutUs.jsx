@@ -45,7 +45,7 @@ export default function AboutUs() {
         <div style={{ maxWidth: 1000, margin: '0 auto', textAlign: 'center' }}>
           <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>
             <div style={{ width: 140, height: 140, borderRadius: '50%', margin: '0 auto 24px', border: '4px solid #FFFFFF', boxShadow: '0 8px 40px rgba(232,67,147,0.12)', overflow: 'hidden', background: '#FFF0F6' }}>
-              <img src="/assets/developer-pic.png" alt="Yaseen Ahmad" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              <img src="/assets/developer-pic.jpg" alt="Yaseen Ahmad" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
           </motion.div>
 

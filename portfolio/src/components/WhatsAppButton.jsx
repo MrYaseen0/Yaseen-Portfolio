@@ -76,7 +76,7 @@ export default function WhatsAppButton() {
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                   <div style={{ width: 44, height: 44, borderRadius: '50%', overflow: 'hidden', border: '2px solid rgba(255,255,255,0.3)' }}>
-                    <img src="/assets/developer-pic.png" alt="Yaseen" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    <img src="/assets/developer-pic.jpg" alt="Yaseen" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   </div>
                   <div>
                     <div style={{ fontWeight: 700, fontSize: 16 }}>Yaseen Ahmad</div>

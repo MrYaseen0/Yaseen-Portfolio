@@ -369,7 +369,7 @@ export default function Hero({ onHireClick }) {
               boxShadow: '0 8px 40px rgba(232,67,147,0.12)',
             }}>
               <img
-                src="/assets/developer-pic.png"
+                src="/assets/developer-pic.jpg"
                 alt="Yaseen Ahmad - Developer"
                 style={{
                   width: '100%',

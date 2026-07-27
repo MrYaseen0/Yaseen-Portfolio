@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 
 const SITE_NAME = 'Yaseen Ahmad | Full-Stack Developer'
 const DEFAULT_DESCRIPTION = 'Full-Stack Developer specializing in MERN stack. Building production-grade SaaS applications and web apps.'
-const DEFAULT_IMAGE = 'https://yaseenahmad.dev/assets/developer-pic.png'
+const DEFAULT_IMAGE = 'https://yaseenahmad.dev/assets/developer-pic.jpg'
 const BASE_URL = 'https://yaseenahmad.dev'
 
 export default function usePageMeta({ title, description, image, path, type = 'website' } = {}) {
