@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables (SECRETS - NEVER COMMIT)
+.env
+.env.*
+server/.env
+server/.env.*
+
+# Large binary files (compress before committing)
+pics/
+logo of web/
+Yaseen Ahmad.svg
+portfolio/public/assets/developer-pic.png
+portfolio/public/assets/logo-animated.gif
+portfolio/public/resume.pdf
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+
+# Misc
+*.tgz
+.cache/

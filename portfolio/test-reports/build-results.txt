@@ -1,0 +1,36 @@
+﻿
+> portfolio@0.0.0 build
+> vite build
+
+[36mvite v8.1.5 [32mbuilding client environment for production...[36m[39m
+[2K
+transforming...Γ£ô 2218 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                               3.12 kB Γöé gzip:   1.12 kB
+dist/assets/index-Dw_kWkd4.css                2.62 kB Γöé gzip:   1.08 kB
+dist/assets/check-gEcUV1Ia.js                 0.11 kB Γöé gzip:   0.13 kB
+dist/assets/arrow-left-DnVt4p-t.js            0.15 kB Γöé gzip:   0.15 kB
+dist/assets/clock-CrKZU6GM.js                 0.15 kB Γöé gzip:   0.15 kB
+dist/assets/eye-D3iAkCO-.js                   0.24 kB Γöé gzip:   0.19 kB
+dist/assets/calendar-CD6Qy_xJ.js              0.24 kB Γöé gzip:   0.19 kB
+dist/assets/refresh-cw-C_lZGaJ6.js            0.31 kB Γöé gzip:   0.22 kB
+dist/assets/git-fork-B6eAt99N.js              0.31 kB Γöé gzip:   0.22 kB
+dist/assets/NotFound-ZF3DR33T.js              1.90 kB Γöé gzip:   0.86 kB
+dist/assets/DatabaseDesign-hmaGGxMG.js        4.91 kB Γöé gzip:   1.77 kB
+dist/assets/UIDesign-YtZX-EPi.js              4.94 kB Γöé gzip:   1.80 kB
+dist/assets/BackendEngineering-NEhS4qmm.js    4.96 kB Γöé gzip:   1.83 kB
+dist/assets/SaaSArchitecture-BW5OM6f7.js      4.96 kB Γöé gzip:   1.81 kB
+dist/assets/MobileDevelopment-SntFdjPw.js     5.08 kB Γöé gzip:   1.84 kB
+dist/assets/ServicesPage-CHlFBUGZ.js          5.26 kB Γöé gzip:   2.00 kB
+dist/assets/TestimonialsPage-DhIwvvn-.js      5.48 kB Γöé gzip:   2.17 kB
+dist/assets/Experience-D2-wfeAH.js            5.59 kB Γöé gzip:   2.00 kB
+dist/assets/AdminLogin-BwW5QNkR.js            5.66 kB Γöé gzip:   2.07 kB
+dist/assets/WebDevelopment-Dh4qsrIK.js        6.52 kB Γöé gzip:   2.17 kB
+dist/assets/GitHubProjects-BQsEWtCv.js        9.37 kB Γöé gzip:   3.13 kB
+dist/assets/AboutUs-CCHyhcMd.js              12.94 kB Γöé gzip:   3.77 kB
+dist/assets/ProjectDetail-DTAaZgWj.js        22.07 kB Γöé gzip:   5.97 kB
+dist/assets/AdminDashboard-Ci0TOCSF.js       45.41 kB Γöé gzip:   8.24 kB
+dist/assets/index-B6AET6zx.js               476.31 kB Γöé gzip: 145.55 kB
+
+[32mΓ£ô built in 1.89s[39m

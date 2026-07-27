@@ -1,0 +1,35 @@
+﻿
+[1m[46m RUN [49m[22m [36mv3.2.7 [39m[90mC:/Yaseen Portfolio/portfolio[39m
+
+ [32mΓ£ô[39m tests/unit/models.test.js[2m > [22mContact Model Schema[2m > [22mhas required fields[32m 9[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/models.test.js[2m > [22mContact Model Schema[2m > [22mhas maxlength constraints[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/models.test.js[2m > [22mContact Model Schema[2m > [22mread defaults to false[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/models.test.js[2m > [22mHireRequest Model Schema[2m > [22mhas valid service enum values[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/models.test.js[2m > [22mHireRequest Model Schema[2m > [22mhas valid status enum values[32m 6[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/models.test.js[2m > [22mHireRequest Model Schema[2m > [22mstatus defaults to new[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/models.test.js[2m > [22mProject Model Schema[2m > [22mhas required fields[32m 3[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/models.test.js[2m > [22mProject Model Schema[2m > [22mhas valid category enum[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/models.test.js[2m > [22mProject Model Schema[2m > [22mfeatured defaults to false[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/models.test.js[2m > [22mSettings Model Schema[2m > [22mhas profile nested object[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/models.test.js[2m > [22mSettings Model Schema[2m > [22mhas social nested object[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/models.test.js[2m > [22mSettings Model Schema[2m > [22mhas seo nested object[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/validate.test.js[2m > [22misValidObjectId[2m > [22mreturns true for valid ObjectId[32m 5[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/validate.test.js[2m > [22misValidObjectId[2m > [22mreturns false for invalid ObjectId[32m 11[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/validate.test.js[2m > [22misValidObjectId[2m > [22mreturns false for null/undefined[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/validate.test.js[2m > [22mvalidateObjectId middleware[2m > [22mcalls next for valid ObjectId[32m 5[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/validate.test.js[2m > [22mvalidateObjectId middleware[2m > [22mreturns 400 for invalid ObjectId[32m 5[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/validate.test.js[2m > [22mvalidateObjectId middleware[2m > [22mcalls next when no id param[32m 3[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/auth.test.js[2m > [22mgenerateTokens[2m > [22mgenerates access and refresh tokens[32m 35[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/auth.test.js[2m > [22mgenerateTokens[2m > [22maccess token contains user id and role[32m 8[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/auth.test.js[2m > [22mgenerateTokens[2m > [22mrefresh token has type refresh[32m 4[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/auth.test.js[2m > [22msetTokenCookies[2m > [22msets access and refresh cookies[32m 11[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/auth.test.js[2m > [22mclearTokenCookies[2m > [22mclears both cookies[32m 2[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/auth.test.js[2m > [22madminOnly middleware[2m > [22mcalls next for admin user[32m 3[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/auth.test.js[2m > [22madminOnly middleware[2m > [22mreturns 403 for non-admin user[32m 2[2mms[22m[39m
+ [32mΓ£ô[39m tests/unit/auth.test.js[2m > [22madminOnly middleware[2m > [22mreturns 403 when no user[32m 2[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m3 passed[39m[22m[90m (3)[39m
+[2m      Tests [22m [1m[32m26 passed[39m[22m[90m (26)[39m
+[2m   Start at [22m 12:23:41
+[2m   Duration [22m 3.01s[2m (transform 150ms, setup 0ms, collect 4.81s, tests 138ms, environment 2ms, prepare 1.34s)[22m
+
