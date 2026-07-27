@@ -115,7 +115,7 @@ export default function ProjectDetail() {
               <div style={{ position: 'absolute', width: 150, height: 150, borderRadius: '50%', border: '2px solid rgba(255,255,255,0.08)', bottom: -40, left: -40 }} />
               <div style={{ position: 'absolute', width: 100, height: 100, borderRadius: '50%', border: '2px solid rgba(255,255,255,0.06)', top: 30, left: 60 }} />
               <div style={{ textAlign: 'center', zIndex: 1, padding: '0 20px' }}>
-                <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 36, fontWeight: 800, color: 'rgba(255,255,255,0.95)', textShadow: '0 2px 12px rgba(0,0,0,0.1)' }}>{project.title}</span>
+                <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 'clamp(24px, 5vw, 36px)', fontWeight: 800, color: 'rgba(255,255,255,0.95)', textShadow: '0 2px 12px rgba(0,0,0,0.1)' }}>{project.title}</span>
                 {project.subtitle && <div style={{ fontSize: 15, color: 'rgba(255,255,255,0.8)', marginTop: 8, fontWeight: 500 }}>{project.subtitle}</div>}
               </div>
             </div>

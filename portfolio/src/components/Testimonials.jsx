@@ -15,7 +15,7 @@ export default function Testimonials() {
   }, [])
 
   return (
-    <section id="testimonials" style={{ padding: '100px 24px', background: '#FFFFFF', position: 'relative', overflow: 'hidden' }}>
+    <section id="testimonials" style={{ padding: '80px 24px', background: '#FFFFFF', position: 'relative', overflow: 'hidden' }}>
       <BubbleAnimation count={10} />
       <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 1, background: 'linear-gradient(90deg, transparent, #F0E6DE, transparent)' }} />
 

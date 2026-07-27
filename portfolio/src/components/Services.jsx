@@ -14,7 +14,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" style={{ padding: '100px 24px', position: 'relative', background: '#FFF9F5' }}>
+    <section id="services" style={{ padding: '80px 24px', position: 'relative', background: '#FFF9F5' }}>
       <div style={{ maxWidth: 1200, margin: '0 auto', position: 'relative', zIndex: 1 }}>
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} style={{ textAlign: 'center', marginBottom: 60 }}>
           <div className="section-label" style={{ display: 'inline-flex' }}><span style={{ fontSize: 16 }}>⚡</span> Services</div>

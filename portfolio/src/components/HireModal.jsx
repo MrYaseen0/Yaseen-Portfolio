@@ -161,7 +161,7 @@ export default function HireModal({ open, onClose }) {
               <motion.button whileHover={{ scale: 1.1, rotate: 90 }} whileTap={{ scale: 0.9 }}
                 onClick={onClose} style={{
                   background: '#F5F0EB', border: 'none', borderRadius: 10,
-                  width: 34, height: 34, display: 'flex', alignItems: 'center',
+                  width: 40, height: 40, display: 'flex', alignItems: 'center',
                   justifyContent: 'center', cursor: 'pointer', color: '#4A4A68',
                 }}>
                 <X size={18} />
@@ -222,7 +222,7 @@ export default function HireModal({ open, onClose }) {
                       <label style={labelStyle}>Email *</label>
                       <input style={inputStyle} className="hire-input" type="email" placeholder="john@example.com" value={form.email} onChange={e => update('email', e.target.value)} required />
                     </div>
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: 12 }}>
                       <div>
                         <label style={labelStyle}>Phone</label>
                         <input style={inputStyle} className="hire-input" placeholder="+1 234 567" value={form.phone} onChange={e => update('phone', e.target.value)} />

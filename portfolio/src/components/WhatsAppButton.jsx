@@ -58,7 +58,7 @@ export default function WhatsAppButton() {
               position: 'fixed',
               bottom: 100,
               right: 28,
-              width: 320,
+              width: 'min(320px, calc(100vw - 32px))',
               background: '#FFFFFF',
               borderRadius: 20,
               border: '1px solid #F0E6DE',
@@ -83,7 +83,7 @@ export default function WhatsAppButton() {
                     <div style={{ fontSize: 12, opacity: 0.85 }}>Typically replies instantly</div>
                   </div>
                 </div>
-                <button onClick={() => setShow(false)} style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer', padding: 4 }}>
+                <button onClick={() => setShow(false)} style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer', padding: 8 }}>
                   <X size={20} />
                 </button>
               </div>

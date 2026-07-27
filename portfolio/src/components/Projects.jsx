@@ -42,7 +42,7 @@ export default function Projects() {
   }, [])
 
   return (
-    <section id="projects" style={{ padding: '100px 24px', position: 'relative', background: '#FFFFFF' }}>
+    <section id="projects" style={{ padding: '80px 24px', position: 'relative', background: '#FFFFFF' }}>
       <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 1, background: 'linear-gradient(90deg, transparent, #F0E6DE, transparent)' }} />
       <div style={{ maxWidth: 1200, margin: '0 auto', position: 'relative', zIndex: 1 }}>
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} style={{ textAlign: 'center', marginBottom: 60 }}>

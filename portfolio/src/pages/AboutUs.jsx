@@ -93,7 +93,7 @@ export default function AboutUs() {
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 1, background: 'linear-gradient(90deg, transparent, #F0E6DE, transparent)' }} />
         <div style={{ maxWidth: 1000, margin: '0 auto' }}>
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} style={{ textAlign: 'center', marginBottom: 48 }}>
-            <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 36, fontWeight: 700, color: '#1A1A2E', marginBottom: 12 }}>About Me</h2>
+            <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 'clamp(24px, 4vw, 36px)', fontWeight: 700, color: '#1A1A2E', marginBottom: 12 }}>About Me</h2>
             <p style={{ fontSize: 16, color: '#9CA3AF' }}>My journey in tech and what drives me</p>
           </motion.div>
 
@@ -140,7 +140,7 @@ export default function AboutUs() {
       <section style={{ padding: '60px 24px', background: '#FFF9F5', position: 'relative', zIndex: 1 }}>
         <div style={{ maxWidth: 700, margin: '0 auto' }}>
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} style={{ textAlign: 'center', marginBottom: 48 }}>
-            <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 36, fontWeight: 700, color: '#1A1A2E', marginBottom: 12 }}>My Journey</h2>
+            <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 'clamp(24px, 4vw, 36px)', fontWeight: 700, color: '#1A1A2E', marginBottom: 12 }}>My Journey</h2>
             <p style={{ fontSize: 16, color: '#9CA3AF' }}>A timeline of my growth as a developer</p>
           </motion.div>
 
@@ -164,7 +164,7 @@ export default function AboutUs() {
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 1, background: 'linear-gradient(90deg, transparent, #F0E6DE, transparent)' }} />
         <div style={{ maxWidth: 800, margin: '0 auto', textAlign: 'center' }}>
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-            <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 36, fontWeight: 700, color: '#1A1A2E', marginBottom: 12 }}>Connect With Me</h2>
+            <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 'clamp(24px, 4vw, 36px)', fontWeight: 700, color: '#1A1A2E', marginBottom: 12 }}>Connect With Me</h2>
             <p style={{ fontSize: 16, color: '#9CA3AF', marginBottom: 40 }}>Find me across the web</p>
           </motion.div>
 

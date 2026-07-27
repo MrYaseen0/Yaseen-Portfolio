@@ -79,8 +79,8 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
-                    width: 40,
-                    height: 40,
+                    width: 44,
+                    height: 44,
                     borderRadius: 10,
                     border: '1px solid #F0E6DE',
                     display: 'flex',
@@ -238,8 +238,8 @@ export default function Footer() {
             onClick={scrollToTop}
             aria-label="Scroll to top"
             style={{
-              width: 40,
-              height: 40,
+              width: 44,
+              height: 44,
               borderRadius: 10,
               border: '1px solid #F0E6DE',
               background: '#FFFFFF',

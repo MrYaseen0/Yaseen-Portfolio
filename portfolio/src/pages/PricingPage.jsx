@@ -102,7 +102,7 @@ export default function PricingPage() {
 
         {/* Header */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} style={{ textAlign: 'center', marginBottom: 60 }}>
-          <h1 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 42, fontWeight: 700, color: '#1A1A2E', marginBottom: 12 }}>
+          <h1 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 'clamp(28px, 5vw, 42px)', fontWeight: 700, color: '#1A1A2E', marginBottom: 12 }}>
             Transparent Pricing
           </h1>
           <p style={{ fontSize: 17, color: '#6B7280', maxWidth: 560, margin: '0 auto', lineHeight: 1.6 }}>
@@ -112,7 +112,7 @@ export default function PricingPage() {
 
         {/* Plans */}
         <motion.div variants={container} initial="hidden" animate="show" style={{
-          display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24,
+          display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))', gap: 24,
           alignItems: 'start',
         }}>
           {plans.map((plan) => (
@@ -145,7 +145,7 @@ export default function PricingPage() {
 
               <div style={{ marginBottom: 16 }}>
                 <span style={{ fontSize: 13, color: '#9CA3AF' }}>{plan.priceNote}</span>
-                <div style={{ fontFamily: "'Space Grotesk'", fontSize: 36, fontWeight: 700, color: '#1A1A2E' }}>
+                <div style={{ fontFamily: "'Space Grotesk'", fontSize: 'clamp(28px, 4vw, 36px)', fontWeight: 700, color: '#1A1A2E' }}>
                   {plan.price}
                 </div>
               </div>

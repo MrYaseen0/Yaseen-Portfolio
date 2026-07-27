@@ -46,7 +46,7 @@ const skillCategories = [
 export default function Skills() {
   return (
     <section id="skills" style={{
-      padding: '100px 24px',
+      padding: '80px 24px',
       position: 'relative',
       background: '#FFF9F5',
     }}>

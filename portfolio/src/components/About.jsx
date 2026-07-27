@@ -23,7 +23,7 @@ const highlights = [
 export default function About() {
   return (
     <section id="about" style={{
-      padding: '100px 24px',
+      padding: '80px 24px',
       position: 'relative',
       background: '#FFFFFF',
     }}>

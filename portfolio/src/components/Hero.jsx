@@ -21,7 +21,7 @@ export default function Hero({ onHireClick }) {
       justifyContent: 'center',
       position: 'relative',
       overflow: 'hidden',
-      padding: '120px 24px 80px',
+      padding: '100px 24px 60px',
       background: 'linear-gradient(180deg, #FFF9F5 0%, #FFFFFF 50%, #FFF0F6 100%)',
     }}>
       <BubbleAnimation count={22} />
@@ -172,12 +172,7 @@ export default function Hero({ onHireClick }) {
             </div>
           </div>
 
-          <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 16,
-            marginBottom: 32,
-          }}>
+          <div className="hero-buttons">
             <button
               onClick={onHireClick}
               style={{
@@ -490,15 +485,57 @@ export default function Hero({ onHireClick }) {
           0%, 100% { transform: translateY(0); }
           50% { transform: translateY(-10px); }
         }
+        .hero-buttons {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          margin-bottom: 32px;
+          flex-wrap: wrap;
+        }
         @media (max-width: 768px) {
           .hero-grid {
             grid-template-columns: 1fr !important;
             text-align: center;
-            gap: 40px !important;
+            gap: 32px !important;
           }
           .hero-image-wrapper {
-            width: 280px !important;
-            height: 280px !important;
+            width: 240px !important;
+            height: 240px !important;
+          }
+          .hero-image-wrapper > div:nth-child(2),
+          .hero-image-wrapper > div:nth-child(3) {
+            display: none !important;
+          }
+          .hero-buttons {
+            justify-content: center;
+            gap: 10px;
+          }
+          .hero-buttons a, .hero-buttons button {
+            width: auto !important;
+            min-width: 120px;
+          }
+          .social-link {
+            width: 40px !important;
+            height: 40px !important;
+          }
+        }
+        @media (max-width: 480px) {
+          .hero-grid {
+            gap: 24px !important;
+          }
+          .hero-image-wrapper {
+            width: 200px !important;
+            height: 200px !important;
+          }
+          .hero-buttons {
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+          }
+          .hero-buttons a, .hero-buttons button {
+            width: 80% !important;
+            min-width: 0;
+            justify-content: center;
           }
         }
       `}</style>

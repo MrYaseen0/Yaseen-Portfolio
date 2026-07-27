@@ -56,7 +56,7 @@ export default function BlogPage() {
         </Link>
 
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} style={{ marginBottom: 48 }}>
-          <h1 style={{ fontFamily: "'Space Grotesk'", fontSize: 42, fontWeight: 700, color: '#1A1A2E', marginBottom: 8 }}>
+          <h1 style={{ fontFamily: "'Space Grotesk'", fontSize: 'clamp(28px, 5vw, 42px)', fontWeight: 700, color: '#1A1A2E', marginBottom: 8 }}>
             Blog
           </h1>
           <p style={{ fontSize: 17, color: '#6B7280', lineHeight: 1.6 }}>
@@ -74,7 +74,7 @@ export default function BlogPage() {
         ) : (
           <>
             <motion.div variants={container} initial="hidden" animate="show" style={{
-              display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 20,
+              display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(280px, 100%), 1fr))', gap: 20,
             }}>
               {posts.map(post => (
                 <motion.article key={post._id} variants={item} style={{
@@ -124,7 +124,7 @@ export default function BlogPage() {
               <div style={{ display: 'flex', justifyContent: 'center', gap: 8, marginTop: 40 }}>
                 {Array.from({ length: pagination.pages }, (_, i) => i + 1).map(p => (
                   <button key={p} onClick={() => setPage(p)} style={{
-                    width: 36, height: 36, borderRadius: 10, border: '1px solid #F0E6DE',
+                    width: 40, height: 40, borderRadius: 10, border: '1px solid #F0E6DE',
                     background: p === page ? '#E84393' : '#FFFFFF',
                     color: p === page ? 'white' : '#6B7280',
                     fontSize: 14, fontWeight: 600, cursor: 'pointer',

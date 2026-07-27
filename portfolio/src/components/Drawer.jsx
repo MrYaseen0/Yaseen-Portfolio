@@ -83,7 +83,7 @@ export default function Drawer({ open, onClose }) {
               Yaseen Ahmad<span style={{ color: '#E84393' }}>.</span>
             </span>
           </Link>
-          <button onClick={onClose} aria-label="Close menu" style={{ background: 'none', border: 'none', color: '#9CA3AF', cursor: 'pointer', padding: 4 }}>
+          <button onClick={onClose} aria-label="Close menu" style={{ background: 'none', border: 'none', color: '#9CA3AF', cursor: 'pointer', padding: 8 }}>
             <X size={22} />
           </button>
         </div>
