@@ -2,6 +2,20 @@
   "version": 2,
   "installCommand": "cd portfolio && npm install",
   "buildCommand": "cd portfolio && npm run build",
-  "outputDirectory": "portfolio/dist",
-  "framework": "vite"
+  "builds": [
+    {
+      "src": "portfolio/api/index.cjs",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["portfolio/server/**"]
+      }
+    }
+  ],
+  "routes": [
+    { "src": "/sitemap.xml", "dest": "/portfolio/api/index.cjs" },
+    { "src": "/api/(.*)", "dest": "/portfolio/api/index.cjs" },
+    { "src": "/assets/(.*)", "dest": "/portfolio/dist/assets/$1" },
+    { "src": "/(.*\\.(js|css|ico|png|jpg|jpeg|svg|webp|woff|woff2|ttf|eot|json))", "dest": "/portfolio/dist/$1" },
+    { "src": "/(.*)", "dest": "/portfolio/dist/index.html" }
+  ]
 }
